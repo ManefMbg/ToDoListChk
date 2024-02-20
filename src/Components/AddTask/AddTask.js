@@ -15,10 +15,10 @@ const AddTask = () => {
     setTask('')
   }
   return (
-    <div>
+    <div style={{marginRight:'35rem', marginLeft:'35rem'}}>
       <Form onSubmit={handleClick}>
         <Form.Control type="text" 
-        placeholder="                                                                                                                                                                                         Task" 
+        placeholder="Task" 
         value={task} onChange={(e) => setTask(e.target.value)} 
         
         style={{

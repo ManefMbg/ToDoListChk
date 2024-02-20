@@ -9,7 +9,7 @@ const TaskList = () => {
  
   return (
     <div style={{ margin: '5%' }}>
-      <Button variant='outline-primary' onClick={() => setFlag('all')} style={{ marginRight:'20px' }}>All</Button>
+      <Button variant='outline-primary' onClick={() => setFlag('all')} style={{ marginRight:'20px'}}>All</Button>
       <Button variant='outline-primary' onClick={() => setFlag('done')} style={{ marginRight:'20px' }}>Done</Button>
       <Button variant='outline-primary' onClick={() => setFlag('unDone')}>UnDone</Button>
       <br></br><br></br><br></br>
